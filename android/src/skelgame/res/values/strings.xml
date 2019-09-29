@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Skelgame</string>
+    <string name="app_name">Color Remove</string>
     <string name="language">en</string>
     <string name="game_id">skelgame</string>
 
-    <string name="admob_banner_id">xxx</string>
-    <string name="admob_inter_id">xxx</string>
-    <string name="admob_video_id">xxx</string>
-    <string name="admob_app_id">xxx</string>
+    <string name="admob_banner_id">ca-app-pub-9432399956064043/8864960403</string>
+    <string name="admob_inter_id">ca-app-pub-9432399956064043/6238797061</string>
+    <string name="admob_video_id">ca-app-pub-9432399956064043/3612633722</string>
+    <string name="admob_app_id">ca-app-pub-9432399956064043~5117287081</string>
 
     <bool name="google_facebook_login_enabled">false</bool>
     <bool name="isPro">false</bool>

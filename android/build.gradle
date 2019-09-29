@@ -11,8 +11,11 @@ android {
             res.srcDirs = ['res']
             jniLibs.srcDirs = ['libs']
         }
-        skelgame {
-            assets.srcDirs = ['assets/tournament_resources/implementations/skelgame', 'assets/tournament_resources/main', 'assets/main_resources/main']
+        colordrop {
+            assets.srcDirs = ['assets/tournament_resources/implementations/colordrop', 'assets/tournament_resources/main', 'assets/main_resources/main']
+        }
+        colordropPro {
+            assets.srcDirs = ['assets/tournament_resources/implementations/colordrop', 'assets/tournament_resources/main', 'assets/main_resources/main']
         }
     }
     lintOptions {
@@ -51,12 +54,20 @@ android {
     flavorDimensions "game"
     productFlavors {
 /////////////////////////////////////////////////////////////////////////////
-        skelgame {
-            applicationIdSuffix ".skelgame"
+        colordrop {
+            applicationIdSuffix ".colordrop"
             versionCode 1
             versionName "1.00"
             dimension "game"
-            manifestPlaceholders = [appIcon: "@drawable/skelgame_icon"]
+            manifestPlaceholders = [appIcon: "@drawable/colordrop_icon"]
+        }
+/////////////////////////////////////////////////////////////////////////////
+        colordropPro {
+            applicationIdSuffix ".colordroppro"
+            versionCode 1
+            versionName "1.00"
+            dimension "game"
+            manifestPlaceholders = [appIcon: "@drawable/colordropPro_icon"]
         }
 /////////////////////////////////////////////////////////////////////////////
     }
